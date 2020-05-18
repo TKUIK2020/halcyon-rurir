@@ -1,0 +1,68 @@
+.winHead {
+    background-color: lightgray;
+    border: gray solid 1px;
+    padding: 4px;
+}
+
+.winMain {
+    border: 1px solid gray;
+    border-top: none;
+    padding: 6px;
+}
+
+.button {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    border: 0px;
+    border-radius: 5px;
+    background-color: white;
+    color: black ;
+    text-align: center;
+    transition-duration: 0.4s;
+    border: 2px solid #008CBA;
+}
+.button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.button1 {
+  transition-duration: 0.4s;
+  padding: 5px;
+    width: auto;
+    height: auto;
+    border: 0px;
+    border-radius: 5px;
+    
+    color: black ;
+    text-align: center;
+}
+
+.button1:hover {
+  background-color: darkgrey; 
+  color: white;
+}
+
+.modalWin {
+    margin: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.modalWinCol {
+    border-top: 1px solid gray;
+    padding: 6px;
+    width: 100%;
+    min-height: 60px;
+    max-height: auto;
+    display: flex;
+}
+
+.close {
+    background-image: url(close.png);
+    margin-left: auto;
+    height: 30px;
+    width: 30px;
+    border: none;
+}
